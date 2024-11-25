@@ -1,0 +1,17 @@
+zsh
+source ~/.zshrc
+echo 'export PATH="/opt/homebrew/anaconda3/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+   conda --version
+   conda init zsh
+
+conda create --name crewai-langgraph
+
+# To activate this environment, use
+#
+#     $ conda activate crewai-langgraph
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
