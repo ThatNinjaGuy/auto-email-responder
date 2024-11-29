@@ -15,3 +15,5 @@ conda create --name crewai-langgraph
 # To deactivate an active environment, use
 #
 #     $ conda deactivate
+
+python main.py
